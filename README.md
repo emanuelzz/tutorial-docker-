@@ -43,7 +43,7 @@ Para configurar externamente à imagem docker o local onde o apache salvará o s
 >docker run -dit --name apache-app --publish=9081:80 -v "$PWD":/usr/local/apache2/htdocs/ chicocx/docker-apache
 
 
-#Demais comandos
+# Demais comandos
 
 Entrar na máquina/imagem:
 >docker exec -it redmine1 bash 
